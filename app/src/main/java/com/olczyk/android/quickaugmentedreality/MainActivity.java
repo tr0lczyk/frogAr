@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         for (AugmentedImage augmentedImage : augmentedImages) {
             if (augmentedImage.getTrackingState() == TrackingState.TRACKING) {
                 if (augmentedImage.getName().equals("elefante") && shouldAddModel) {
-                    placeObject(arFragment, augmentedImage.createAnchor(augmentedImage.getCenterPose()), Uri.parse("elefante.sfb"));
+                    placeObject(arFragment, augmentedImage.createAnchor(augmentedImage.getCenterPose()), Uri.parse("treefrog.sfb"));
                     shouldAddModel = false;
                 }
             }

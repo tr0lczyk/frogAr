@@ -47,3 +47,8 @@ sceneform.asset('sampledata/elefante.obj',
         'default',
         'sampledata/elefante.sfa',
         'src/main/assets/elefante')
+
+sceneform.asset('sampledata/treefrog.obj',
+        'default',
+        'sampledata/treefrog.sfa',
+        'src/main/assets/treefrog')
