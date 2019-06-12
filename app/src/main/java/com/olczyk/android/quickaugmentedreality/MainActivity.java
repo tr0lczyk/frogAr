@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
     private Bitmap loadAugmentedImage() {
-        try (InputStream is = getAssets().open("nogravity.jpg")) {
+        try (InputStream is = getAssets().open("code.jpg")) {
             return BitmapFactory.decodeStream(is);
         } catch (IOException e) {
             Log.e("ImageLoad", "IO Exception", e);
